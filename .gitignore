@@ -1,0 +1,11 @@
+# Binaries
+bin/
+tmp/
+main
+
+# IDEs
+.idea/
+.vscode/
+
+# OS files
+.DS_Store

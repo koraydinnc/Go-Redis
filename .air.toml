@@ -1,0 +1,14 @@
+root = "."
+tmp_dir = "tmp"
+
+[build]
+cmd = "go build -o ./tmp/main ./cmd/miniredis-server"
+bin = "./tmp/main"
+stop_on_error = true
+delay = 200
+send_interrupt = true
+kill_delay = "500ms"
+exclude_dir = ["tmp", "vendor", ".git"]
+
+[log]
+time = true
